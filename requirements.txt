@@ -1,4 +1,4 @@
-python==3.8.10
+Python==3.8.10
 anyascii==0.3.0
 appdirs==1.4.3
 apturl==0.5.2
