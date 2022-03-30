@@ -1,14 +1,24 @@
 from .base import *
+import dj_database_url
 
+DATABASES['default'] = dj_database_url.config()
+
+# Honor the 'X-Forwarded-Proto' header for request.is_secure()
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+
+# Allow all host headers
+ALLOWED_HOSTS = ['*']
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 # DEBUG = False
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'g&nxd2pp%!$-6ftl#*hok9y0@lp^tou^yx3@=plrz62k2)708@'
+from __future__ import absolute_import, unicode_literals
 
-# SECURITY WARNING: define the correct hosts in production!
-ALLOWED_HOSTS = ['*']
+import os
+
+env = os.environ.copy()
+SECRET_KEY = env['SECRET_KEY']
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
