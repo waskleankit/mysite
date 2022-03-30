@@ -1,6 +1,6 @@
 anyascii==0.3.0
 appdirs==1.4.3
-apturl==0.5.2
+
 asgiref==3.5.0
 astropy==4.0
 atomicwrites==1.1.5
