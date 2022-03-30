@@ -1,3 +1,4 @@
+python==3.8.10
 anyascii==0.3.0
 appdirs==1.4.3
 apturl==0.5.2
@@ -150,7 +151,7 @@ pytest-astropy-header==0.1.2
 pytest-doctestplus==0.5.0
 pytest-openfiles==0.4.0
 pytest-remotedata==0.3.2
-Python==3.8.10
+
 python-apt==2.0.0+ubuntu0.20.4.6
 python-dateutil==2.7.3
 python-debian===0.1.36ubuntu1
