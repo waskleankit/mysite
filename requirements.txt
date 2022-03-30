@@ -173,3 +173,5 @@ python-dateutil==2.7
 django-on-heroku==1.1.2
 waitress==2.1.1
 whitenoise==6.0.0
+setuptools>=40.8.0
+wheel
