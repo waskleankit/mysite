@@ -1,0 +1,49 @@
+[
+{"type": "title_and_text",
+"value": {"title": "Welcome to StartupLife",
+ "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\""
+ },
+ "id": "a704900c-2c57-4d35-9751-d83ef4aaca66"
+ },
+ {"type": "title_and_text",
+  "value": {
+  "title": "Second Title"
+  , "text": "Second Text"
+  },
+  "id": "41208bd8-6af6-458d-9ac4-65d6f1369ab4"
+  },
+  {"type": "title_and_text",
+   "value": {
+   "title": "Third Title",
+    "text": "Third Text"
+    },
+    "id": "5e3b8028-03c5-406a-b214-1272c7ed5f46"
+    },
+    {"type": "full_richtext",
+     "value": "<p data-block-key=\"ndgcb\">&quot;<b>Lorem ipsum do</b>lor sit <i>amet, consectetur adipiscing</i> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in re<a id=\"3\" linktype=\"page\">prehenderit in volupta</a>te velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&quot;</p>", "id": "11a2806c-9898-43f0-9dc9-7f947a97e2ab"}, {"type": "simple_richtext", "value": "<p data-block-key=\"x9iyx\">&quot;<b>Lorem ipsum do</b>lor sit <i>amet, consectetur adipiscing</i> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in re<a id=\"3\" linktype=\"page\">prehenderit in volupta</a>te velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&quot;</p>",
+     "id": "e6749c02-de3e-4c23-859a-e0a3d2eca4f2"
+     },
+     {"type": "cards",
+     "value": {
+     "title":
+     "Staff Cards",
+     "cards":
+     [
+     {"image": 3, "title": "Matt", "text": "Smith", "button_page": 3, "button_url": ""
+     }, {"image": 4,
+     "title": "Clara",
+     "text": "Oswald",
+     "button_page": null,
+     "button_url": "https://google.com/"
+     },
+     {
+     "image": 5,
+     "title": "Jane",
+     "text": "Doe",
+     "button_page": 4,
+     "button_url": ""
+     }
+     ]
+     },
+     "id": "60fe1827-7548-4f59-9f5b-d9a5ff417cd4"
+     }, {"type": "cta", "value": {"title": "Call to Action Title", "text": "<p data-block-key=\"e3omk\">Rich text in here Rich text in here Rich text in here Rich text in here Rich text in here Ri<b><i>ere Rich text</i></b><b> in here Rich text in here Rich text in here Rich text in here Rich text in here Rich</b>ch text in h text in here Rich text in here</p>", "button_page": 3, "button_url": "https://www.hackerrank.com/onboarding/challenge", "button_text": "Learn More"}, "id": "d7c4b0e7-58a8-4ed5-bc44-76c9dcaa0a2d"}]
