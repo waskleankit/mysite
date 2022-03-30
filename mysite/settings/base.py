@@ -248,7 +248,7 @@ WAGTAILSEARCH_BACKENDS = {
 # e.g. in notification emails. Don't include '/admin' or a trailing slash
 BASE_URL = 'http://example.com'
 
-
+#gfyhbgdsjkvbd
 #recptcha settings
 RECAPTCHA_PUBLIC_KEY = "6LcEn4AeAAAAAJaWf6ODHer99ft5L1ZxIc70_jGA"
 RECAPTCHA_PRIVATE_KEY = "6LcEn4AeAAAAAB68MP2yW-SU17zlVhzVvi5uPuIe"
