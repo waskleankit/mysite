@@ -167,12 +167,11 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'wagtail',
-        'USER': 'wagtailankit',
-        'PASSWORD': 'wagtailpwd',
-        'HOST': 'localhost',  # Set to empty string for localhost.
+        'NAME': 'derr9hr1rc7otp',
+        'USER': 'ehbotyjzjecsps',
+        'PASSWORD': '1525f8c07f60447433a709fc1a6a21499462d2798222b81c5d0cad1479c60973',
+        'HOST': 'ec2-18-215-96-22.compute-1.amazonaws.com',  # Set to empty string for localhost.
         'PORT': '5432',  # Set to empty string for default.
-        'CONN_MAX_AGE': 600,  # number of seconds database connections should persist for
     }
 }
 
